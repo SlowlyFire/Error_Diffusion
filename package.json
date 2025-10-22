@@ -1,0 +1,24 @@
+{
+  "name": "error-diffusion",
+  "version": "1.0.0",
+  "description": "Error diffusion implementation for image processing",
+  "main": "dist/error-diffusion.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/error-diffusion.js",
+    "dev": "ts-node src/error-diffusion.ts"
+  },
+  "keywords": ["image-processing", "error-diffusion", "dithering"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "@types/sharp": "^0.31.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
